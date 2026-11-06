@@ -93,7 +93,7 @@ Codex CLI 的完整接入（含自定义命令 `~/.codex/prompts/talktome.md`、
 
 ```bash
 # macOS / Linux
-git clone https://github.com/myaier/talktome.skills.git /tmp/talktome.skills
+git clone https://github.com/huangjuhua-aigc/talktome.skills.git /tmp/talktome.skills
 mkdir -p ~/.claude/skills
 cp -r /tmp/talktome.skills/deploy-talktome ~/.claude/skills/deploy-talktome
 cp -r /tmp/talktome.skills/talktome-chat   ~/.claude/skills/talktome-chat
@@ -101,7 +101,7 @@ cp -r /tmp/talktome.skills/talktome-chat   ~/.claude/skills/talktome-chat
 
 ```powershell
 # Windows PowerShell
-git clone https://github.com/myaier/talktome.skills.git $env:TEMP\talktome.skills
+git clone https://github.com/huangjuhua-aigc/talktome.skills.git $env:TEMP\talktome.skills
 New-Item -ItemType Directory -Force "$env:USERPROFILE\.claude\skills" | Out-Null
 Copy-Item -Recurse -Force "$env:TEMP\talktome.skills\deploy-talktome" "$env:USERPROFILE\.claude\skills\"
 Copy-Item -Recurse -Force "$env:TEMP\talktome.skills\talktome-chat"   "$env:USERPROFILE\.claude\skills\"
